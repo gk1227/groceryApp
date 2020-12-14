@@ -1,19 +1,22 @@
-# Grocery App
-
-### Endpoints
-
-## Get
-* Loads the grocery
-* On initial page load mongodb in memory database is populated with one grocery item and is shown on UI
+# Simple Grocery list application
 
 
-## Post
-* Used to add items to the list by using /form
-* /delete is used to delete item from the list by name
-* Each post action reloads the page showing the update list from db.
 
-## EJS Partials
-* Partials are used to extend ejs files.
-* Currently using headers and footes as partials
-* Passing variables and data to ejs files
+**Features of the application
+
+
+* On initial page load mongodb in memory database is populated with one all items from database and is shown on UI
+* Items can be added to the user list with form.
+* Delete interface is used to delete item from the list by name
+* Used mongodb for saving and rendering user records.
+
+**Instructions for using this app
+->npm install
+->npm start
+
+Name: Girish Kothamasu, id : 2010062
+      Manoj Ganta, id :  2010127
+      Nagarjuna reddy, id : 2010149
+
+
 
